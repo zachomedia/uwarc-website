@@ -1,0 +1,7 @@
+name: University of Waterloo Amateur Radio Club
+description: The Internet home of UW's oldest club
+url: http://uwarc.uwaterloo.ca
+markdown: redcarpet
+highlighter: pygments
+plugins: _plugins
+

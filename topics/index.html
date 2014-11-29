@@ -1,0 +1,15 @@
+---
+layout: default
+title: topics
+---
+
+<div id="home">
+<h1>Topics</h1>
+<p>
+{% for category in site.categories %}
+<a href="/{{ category | first | slugize }}/">
+  {{ category | first }}
+</a><br />
+{% endfor %}
+</p>
+</div>

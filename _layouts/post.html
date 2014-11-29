@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<h2>{{ page.title }}</h2>
+<p class="meta">(filed under:
+{% for category in page.categories %}
+&thinsp;<a href="{{ site.url }}/{{ category | slugize }}/">{{ category }}</a>
+{% endfor %}
+)
+</p>
+<p class="meta">{{ page.date | date_to_string }}</p>
+
+<div class="post">
+{{ content }}
+</div>
