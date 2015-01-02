@@ -4,4 +4,4 @@ url: http://uwarc.uwaterloo.ca
 markdown: redcarpet
 highlighter: pygments
 plugins: _plugins
-
+exclude: ["README.md"]
