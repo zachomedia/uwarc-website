@@ -14,7 +14,7 @@ The club callsign is VE3UOW.
 
 # Meeting
 
-The club meets on most Friday's at 6:00PM in E2 4402. Anyone is welcome
+The club meets on most Fridays at 6:00PM in E2 4402. Anyone is welcome
 to attend a club meeting. If you don't know where to go,
 please [contact us]({{site.url}}/contact/) and we'll show you the way.
 
@@ -40,5 +40,34 @@ supervision.
 
 # Executive
 
-A list of executive positions will be available at the start of the
-Winter 2015 term.
+- **Archivist**
+
+	Yomna Nasser
+
+- **Communications Director**
+
+	Zachary Seguin
+
+- **Course Coordinator**
+
+	Murphy Berzish
+
+- **Head of Personnel**
+
+	Jordan Pryde
+
+- **Minister of External Affairs**
+
+	Murphy Berzish
+
+- **Office Manager**
+
+	Zachary Seguin
+
+- **System Administrator**
+
+	Elana Hashman
+
+- **Treasurer**
+
+	Harrison Gross
