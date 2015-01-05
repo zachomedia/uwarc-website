@@ -12,7 +12,7 @@ sudo gem install jekyll
 To build the website for local development, use
 
 ```
-jekyll build --config _testconfig.yaml
+jekyll build --config _testconfig.yml
 ```
 
 To run a local version of the site for testing, use 
