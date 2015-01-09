@@ -1,6 +1,6 @@
 # UW Amateur Radio Club Website #
 
-This site is built with Jekyll. To work on the website, ensure you have Ruby 
+This site is built with Jekyll. To work on the website, ensure you have Ruby
 installed, and use
 
 ```
@@ -15,7 +15,7 @@ To build the website for local development, use
 jekyll build --config _testconfig.yml
 ```
 
-To run a local version of the site for testing, use 
+To run a local version of the site for testing, use
 
 ```
 jekyll serve --skip-initial-build
@@ -31,7 +31,7 @@ jekyll build
 
 ### Deployment ###
 
-If you have sufficient permissions (e.g. access to the `uwarc` account on the 
+If you have sufficient permissions (e.g. access to the `uwarc` account on the
 CSC systems), you can deploy the site using
 
 ```
