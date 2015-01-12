@@ -40,34 +40,11 @@ supervision.
 
 # Executive
 
-- **Archivist**
-
-	Yomna Nasser
-
-- **Communications Director**
-
-	Zachary Seguin
-
-- **Course Coordinator**
-
-	Murphy Berzish
-
-- **Head of Personnel**
-
-	Jordan Pryde
-
-- **Minister of External Affairs**
-
-	Murphy Berzish
-
-- **Office Manager**
-
-	Zachary Seguin
-
-- **System Administrator**
-
-	Elana Hashman
-
-- **Treasurer**
-
-	Harrison Gross
+- **Archivist**: Yomna Nasser
+- **Communications Director**: Zachary Seguin
+- **Course Coordinator**: Murphy Berzish
+- **Head of Personnel**: Jordan Pryde
+- **Minister of External Affairs**: Murphy Berzish
+- **Office Manager**: Zachary Seguin
+- **System Administrator**: Elana Hashman
+- **Treasurer**: Harrison Gross
