@@ -8,7 +8,7 @@
 body {
    background: #f4f4f4;
    font-family: sans-serif;
-   font-size: 0.85em;
+   font-size: 0.9em;
 }
 
 a {
@@ -25,8 +25,9 @@ a:hover {
 }
 
 p,li {
-   color: #222;
+   color: #000;
    line-height: 1.8em;
+   font-weight: normal;
 }
 
 ul {
@@ -60,7 +61,7 @@ p {
 }
 
 .site {
-   width: 95%;
+   width: 90%;
    max-width: 80em;
    margin: 0 auto;
 }
