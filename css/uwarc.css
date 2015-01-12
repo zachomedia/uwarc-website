@@ -12,7 +12,7 @@ body {
 }
 
 a {
-   color: #0982a1;
+   color: #217f91;
    text-decoration: none;
 }
 
@@ -23,7 +23,6 @@ a:hover {
 p,li {
    color: #222;
    line-height: 1.8em;
-   font-weight: 200;
 }
 
 ul {
@@ -82,11 +81,11 @@ p {
 
    .header a {
       padding: 5px;
-      color: #555;
+      color: #333;
    }
 
    .header a:hover {
-      color: #222;
+      color: #111;
    }
 
    .header .title {
@@ -100,13 +99,21 @@ p {
 
 .footer {
   font-size: 80%;
-  color: #888;
+  color: #555;
   margin: 1em;
   overflow: hidden;
 }
 
 .footer p {
-   color: #888;
+   color: #555;
+}
+
+.footer a {
+   color: #1f7485;
+}
+
+.footer a:hover {
+   color: #0ba9d2;
 }
 
 .footer .info {
