@@ -4,13 +4,14 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>{{ page.title }} | UWARC (VE3UOW)</title>
-        <!-- <meta name="viewport" content="width=device-width"> -->
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="icon" href="{{ site.url }}/img/favicon.png">
 
         <!-- syntax highlighting CSS -->
         <link rel="stylesheet" href="{{ site.url }}/css/syntax.css">
 
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="{{ site.url }}/css/main.css">
+        <link rel="stylesheet" href="{{ site.url }}/css/uwarc.css">
 
          <!-- RSS-XML -->
          <link rel="alternate" type="application/rss+xml"
@@ -19,17 +20,24 @@
 
     </head>
     <body>
-
         <div class="site">
           <div class="header">
+            <div class="logo">
+               <a href="{{ site.url }}/"><img src="{{ site.url }}/img/uwarc.png" alt="University of Waterloo Amateur Radio Club"></a>
+            </div>
+
             <h1 class="title"><a href="{{ site.url }}/">{{ site.name }}</a></h1>
-            <a class="extra" href="{{ site.url }}/about/">About</a>
-            <a class="extra" href="{{ site.url }}/topics/">Topics</a>
-            <a class="extra" href="{{ site.url }}/policies-procedures/">Policies/Procedures</a>
-            <a class="extra" href="{{ site.url }}/contact/">Contact</a>
+            <div class="extra">
+               <a href="{{ site.url }}/about/">About</a>
+               <a href="{{ site.url }}/topics/">Topics</a>
+               <a href="{{ site.url }}/policies-procedures/">Policies/Procedures</a>
+               <a href="{{ site.url }}/contact/">Contact</a>
+            </div>
           </div>
 
-          {{ content }}
+          <div class="content">
+             {{ content }}
+          </div>
 
           <div class="footer">
             <div class="info">
