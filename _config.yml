@@ -5,3 +5,5 @@ markdown: redcarpet
 highlighter: pygments
 plugins: _plugins
 exclude: ["README.md"]
+twitter_path: https://twitter.com/VE3UOW
+twitter_id: 574066053875154944

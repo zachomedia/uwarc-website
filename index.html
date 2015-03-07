@@ -4,10 +4,18 @@ title: UW Amateur Radio Club
 ---
 
 <div id="home">
+	<div class="twitter">
+		<a class="twitter-timeline" data-dnt="true" href="{{ site.twitter_path }}" data-widget-id="{{ site.twitter_id }}" height="750px">Tweets by @VE3UOW</a>
+	</div>
+
 	<p>Welcome to the homepage of the University of Waterloo
 	Amateur Radio Club (VE3UOW)!</p>
 
 	<h2>About the Club</h2>
+
+	<p>You can find us on 446.100MHz with a CTCSS tone of 131.8Hz.<br>If you're on campus and
+		a licensed amateur radio operator, give us a call.</p>
+
 	<p><a href="{{ site.url }}/about/">Learn more</a> about the club.</p>
 
 	<h2>Joining the Club</h2>
@@ -26,4 +34,6 @@ title: UW Amateur Radio Club
 			</li>
 		{% endfor %}
 	</ul>
+
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </div>

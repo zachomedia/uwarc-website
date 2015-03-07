@@ -1,7 +1,9 @@
 name: University of Waterloo Amateur Radio Club
 description: The Internet home of UW's oldest club
-url: 
+url:
 markdown: redcarpet
 highlighter: pygments
 plugins: _plugins
 exclude: ["README.md"]
+twitter_path: https://twitter.com/VE3UOW
+twitter_id: 574066053875154944

@@ -143,3 +143,16 @@ p {
    border-radius: 5px;
 }
 
+/* Twitter */
+.twitter {
+   float: right;
+   width: 400px;
+   min-height: 700px;
+   margin-left: 20px;
+}
+
+@media all and (max-width: 900px) {
+   .twitter {
+      display: none;
+   }
+}
