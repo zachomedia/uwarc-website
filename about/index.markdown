@@ -12,6 +12,11 @@ those who are licensed and those who are not.
 
 The club callsign is VE3UOW.
 
+# Radio Operation
+
+Our club is using a simplex frequency of 446.100MHz with a
+CTCSS tone of 131.8Hz for on-campus communications.
+
 # Meeting
 
 The club meets on most Fridays at 6:00PM in E2 4402. Anyone is welcome
