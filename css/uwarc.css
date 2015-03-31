@@ -1,3 +1,8 @@
+.title {
+   font-weight: bold;
+   font-size: 25pt;
+}
+
 .welcome {
    margin: 20px auto;
 }
