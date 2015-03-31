@@ -1,0 +1,67 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>University of Waterloo Amateur Radio Club</title>
+        <link rel="icon" href="{{ site.url }}/img/favicon.png">
+
+        <link rel="stylesheet" href="{{ sites.url }}/css/foundation.css">
+        <link rel="stylesheet" href="{{ sites.url }}/css/uwarc.css">
+        <script src="{{ sites.url }}/js/vendor/modernizr.js"></script>
+    </head>
+    <body>
+        <div class="header fixed">
+            <nav class="top-bar" data-topbar role="navigation">
+                <ul class="title-area">
+                    <li class="name">
+                        <h1><a href="{{ site.url }}/">UWARC</a></h1>
+                    </li>
+
+                     <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+                    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+                </ul>
+
+                <section class="top-bar-section">
+                    <!-- Right Nav Section -->
+                    <ul class="right">
+                        <li><a href="{{ site.url }}/about/">About</a></li>
+                        <li><a href="{{ site.url }}/topics/">Topics</a></li>
+                        <li><a href="{{ site.url }}/policies-procedures/">Policies / Procedures</a></li>
+                        <li><a href="{{ site.url }}/contact/">Contact</a></li>
+                    </ul><!-- end of Right Nav Section -->
+
+                    <!-- Left Nav Section -->
+                    <ul class="left">
+
+                    </ul>
+                </section>
+            </nav>
+        </div><!-- end of nav bar wrapper -->
+
+        {{ content }}
+
+	    <div class="footer small">
+	        <div class="row">
+	            <div class="medium-9 columns">
+                    <p><br>Copyright &copy; 2015 &mdash; University of Waterloo Amateur Radio Club</p>
+                    <ul class="inline-list">
+                        <li><a href="{{ sites.url }}/about">About UWARC</a></li>
+                        <li><a href="{{ sites.url }}/policies-procedures">Policies and Procedures</a></li>
+                        <li><a href="{{ sites.url }}/contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="medium-3 columns right-align">
+                    <a href="https://uwaterloo.ca"><img src="{{ site.url }}/img/uwaterloo.png" style="width: 100%; max-width: 250px;"></a>
+	            </div>
+	        </div>
+	    </div>
+
+        <script src="{{ sites.url }}/js/vendor/jquery.js"></script>
+        <script src="{{ sites.url }}/js/foundation.min.js"></script>
+        <script>
+            $(document).foundation();
+        </script>
+    </body>
+</html>
