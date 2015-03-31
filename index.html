@@ -3,34 +3,36 @@ layout: html
 title: UW Amateur Radio Club
 ---
 
-<div class="row shaded">
+<div class="shaded">
     <div class="row">
-        <div class="small-3 small-centered columns text-center">
-            <img src="{{ site.url }}/img/uwarc.png" alt="UWARC" style="max-height: 150px">
-        </div>
-    </div>
-    <div class="row">
-        <div class="large-12 columns welcome">
-            <div class="row">
-                <div class="large-4 medium-4 columns text-center">
-                    <h4 class="subheader">Club Callsigns</h4>
-                    <p>VE3UOW / VE3WWW</p>
-                </div>
-                <div class="large-4 medium-4 columns text-center">
-                    <h4 class="subheader">Campus Simplex</h4>
-                    <p>446.100MHz <br> CTCSS tone of 131.8Hz</p>
-                </div>
-                <div class="large-4 medium-4 columns text-center">
-                    <h4 class="subheader">Club Meetings</h4>
-                    <p>Fridays at 6:00PM<br>Engineering 2, Room 4402</p>
-                </div>
+        <div class="row">
+            <div class="small-3 small-centered columns text-center">
+                <img src="{{ site.url }}/img/uwarc.png" alt="UWARC" style="max-height: 150px">
             </div>
-            <div class="row">
-                <div class="large-6 medium-6 columns">
-                    <a class="button small radius uwaterloo full-width" href="{{ site.url }}/about/">About the Club</a>
+        </div>
+        <div class="row">
+            <div class="large-12 columns welcome">
+                <div class="row">
+                    <div class="large-4 medium-4 columns text-center">
+                        <h4 class="subheader">Club Callsigns</h4>
+                        <p>VE3UOW / VE3WWW</p>
+                    </div>
+                    <div class="large-4 medium-4 columns text-center">
+                        <h4 class="subheader">Campus Simplex</h4>
+                        <p>446.100MHz <br> CTCSS tone of 131.8Hz</p>
+                    </div>
+                    <div class="large-4 medium-4 columns text-center">
+                        <h4 class="subheader">Club Meetings</h4>
+                        <p>Fridays at 6:00PM<br>Engineering 2, Room 4402</p>
+                    </div>
                 </div>
-                <div class="large-6 medium-6 columns">
-                    <a class="button  small radius uwaterloo full-width" href="{{ site.url }}/contact/">Contact Us</a>
+                <div class="row">
+                    <div class="large-6 medium-6 columns">
+                        <a class="button small radius uwaterloo full-width" href="{{ site.url }}/about/">About the Club</a>
+                    </div>
+                    <div class="large-6 medium-6 columns">
+                        <a class="button  small radius uwaterloo full-width" href="{{ site.url }}/contact/">Contact Us</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -58,51 +60,15 @@ title: UW Amateur Radio Club
     </div>
 </div>
 
-<div class="row shaded">
-    <div class="large-12 columns">
-        <h2 class="subheader">Code of Conduct</h2>
-        <blockquote>The University of Amateur Radio club primary includes and supports all members of the University of Waterloo community. We are committed to providing a friendly, safe and welcoming environment for all, regardless of gender, sexual orientation, ability, ethnicity, socioeconomic status, and religion (or lack thereof).<cite><a href="{{ site.url }}/policies-procedures/code-of-conduct">UWARC Code of Conduct</a></city></blockquote>
+<div class="shaded">
+    <div class="row">
+        <div class="large-12 columns">
+            <h2 class="subheader">Code of Conduct</h2>
+            <blockquote>The University of Amateur Radio club primary includes and supports all members of the University of Waterloo community. We are committed to providing a friendly, safe and welcoming environment for all, regardless of gender, sexual orientation, ability, ethnicity, socioeconomic status, and religion (or lack thereof).<cite><a href="{{ site.url }}/policies-procedures/code-of-conduct">UWARC Code of Conduct</a></city></blockquote>
 
-        <p>All members and visitors of the club (and its activities) are subject to the expectations detailed in our Code of Conduct.<br>We strive for an open and welcome environment for <strong>all</strong> members of the University of Waterloo community.</p>
+            <p>All members and visitors of the club (and its activities) are subject to the expectations detailed in our Code of Conduct.<br>We strive for an open and welcome environment for <strong>all</strong> members of the University of Waterloo community.</p>
+        </div>
     </div>
 </div>
 
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-
-<!-->
-<div id="home">
-	<!--<div class="twitter">
-		<a class="twitter-timeline" data-dnt="true" href="{{ site.twitter_path }}" data-widget-id="{{ site.twitter_id }}" height="750px">Tweets by @VE3UOW</a>
-	</div>
-
-	<p>Welcome to the homepage of the University of Waterloo
-	Amateur Radio Club (VE3UOW)!</p>
-
-	<h2>About the Club</h2>
-
-	<p>You can find us on 446.100MHz with a CTCSS tone of 131.8Hz.<br>If you're on campus and
-		a licensed amateur radio operator, give us a call.</p>
-
-	<p><a href="{{ site.url }}/about/">Learn more</a> about the club.</p>
-
-	<h2>Joining the Club</h2>
-	<p>If you are interested in joining the club,
-	please <a href="{{ site.url }}/contact/">contact us</a>.</p>
-	<p>The club is open to all students of the
-		<a href="https://uwaterloo.ca">University of Waterloo</a>.
-		An Amateur Radio License is not required.</p>
-
-	<h1>Posts</h1>
-	<ul class="posts">
-		{% for post in site.posts %}
-			<li><span>{{ post.date | date_to_string }}</span>
-				&raquo;
-				<a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
-			</li>
-		{% endfor %}
-	</ul>
-
-	<!--<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-</div>
--->

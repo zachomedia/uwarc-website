@@ -71,6 +71,7 @@ dt {
 
 .shaded {
    background: #f3f3f3;
+   padding: 20px 10px;
 }
 
 .top-bar a:hover {
