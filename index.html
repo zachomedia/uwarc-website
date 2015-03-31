@@ -3,47 +3,43 @@ layout: html
 title: UW Amateur Radio Club
 ---
 
-<div class="row welcome">
-    <div class="large-2 medium-2 small-4 columns">
-        <img src="{{ site.url }}/img/uwarc.png" alt="UWARC" style="max-height: 150px">
+<div class="row shaded">
+    <div class="row">
+        <div class="small-3 small-centered columns text-center">
+            <img src="{{ site.url }}/img/uwarc.png" alt="UWARC" style="max-height: 150px">
+        </div>
     </div>
-    <div class="large-10 medium-10 small-8 columns">
-        <h1>Welcome to the University of Waterloo Amateur Radio Club</h1>
+    <div class="row">
+        <div class="large-12 columns welcome">
+            <div class="row">
+                <div class="large-4 medium-4 columns text-center">
+                    <h4 class="subheader">Club Callsigns</h4>
+                    <p>VE3UOW / VE3WWW</p>
+                </div>
+                <div class="large-4 medium-4 columns text-center">
+                    <h4 class="subheader">Campus Simplex</h4>
+                    <p>446.100MHz <br> CTCSS tone of 131.8Hz</p>
+                </div>
+                <div class="large-4 medium-4 columns text-center">
+                    <h4 class="subheader">Club Meetings</h4>
+                    <p>Fridays at 6:00PM<br>Engineering 2, Room 4402</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="large-6 medium-6 columns">
+                    <a class="button small radius uwaterloo full-width" href="{{ site.url }}/about/">About the Club</a>
+                </div>
+                <div class="large-6 medium-6 columns">
+                    <a class="button  small radius uwaterloo full-width" href="{{ site.url }}/contact/">Contact Us</a>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
 <div class="row">
-    <div class="large-12 columns">
-        <p>The University of Waterloo Amateur Radio Club engages in a wide variety of activities.<br/>A license is not required to participate in club activities.</p>
-
-        <div class="row">
-            <div class="large-4 medium-4 columns">
-                <h4>Club Callsign</h4>
-                <p>The club holds VE3UOW and VE3WWW as its callsigns.</p>
-            </div>
-            <div class="large-4 medium-4 columns">
-                <h4>Campus Simplex</h4>
-                <p>Find us on 446.100MHz with a CTCSS tone of 131.8Hz.</p>
-            </div>
-            <div class="large-4 medium-4 columns">
-                <h4>Club Meetings</h4>
-                <p>The club generally meets every Friday at 6:00PM in Engineering 2, room 4402.</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="large-6 medium-6 columns">
-                <a class="button radius uwaterloo full-width" href="{{ site.url }}/about/">About the Club</a>
-            </div>
-            <div class="large-6 medium-6 columns">
-                <a class="button radius uwaterloo full-width" href="{{ site.url }}/about/">Contact Us</a>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="row top-border">
     <div class="large-6 medium-6 columns">
-        <h2>Blog Posts</h2>
+        <h4 class="subheader">Blog Posts</h4>
     	<ul class="posts">
     		{% for post in site.posts limit:8 %}
     			<li><span>{{ post.date | date_to_string }}</span>
@@ -52,20 +48,20 @@ title: UW Amateur Radio Club
     		{% endfor %}
     	</ul>
 
-        <p><a class="button small full-width uwaterloo" href="{{ site.url }}/topics/">View All Posts</a></p>
+        <p><a class="button small radius full-width uwaterloo" href="{{ site.url }}/topics/">View All Posts</a></p>
     </div>
     <div class="large-6 medium-6 columns show-for-medium-up">
-        <h2>UWARC on Twitter</h2>
+        <h4 class="subheader">@VE3UOW</h4>
         <div class="twitter">
         		<a class="twitter-timeline" data-dnt="true" href="{{ site.twitter_path }}" data-widget-id="{{ site.twitter_id }}" height="470px">Tweets by @VE3UOW</a>
         	</div>
     </div>
 </div>
 
-<div class="row top-border">
+<div class="row shaded">
     <div class="large-12 columns">
-        <h2>Code of Conduct</h2>
-        <blockquote>The University of Amateur Radio club primary includes and supports all members of the University of Waterloo community. We are committed to providing a friendly, safe and welcoming environment for all, regardless of gender, sexual orientation, ability, ethnicity, socioeconomic status, and religion (or lack thereof).<cite><a href="#/code-of-conduct">UWARC Code of Conduct</a></city></blockquote>
+        <h2 class="subheader">Code of Conduct</h2>
+        <blockquote>The University of Amateur Radio club primary includes and supports all members of the University of Waterloo community. We are committed to providing a friendly, safe and welcoming environment for all, regardless of gender, sexual orientation, ability, ethnicity, socioeconomic status, and religion (or lack thereof).<cite><a href="{{ site.url }}/policies-procedures/code-of-conduct">UWARC Code of Conduct</a></city></blockquote>
 
         <p>All members and visitors of the club (and its activities) are subject to the expectations detailed in our Code of Conduct.<br>We strive for an open and welcome environment for <strong>all</strong> members of the University of Waterloo community.</p>
     </div>
