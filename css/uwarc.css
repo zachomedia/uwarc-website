@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, h6 {
    color: #484351;
 }
 
-body > .row {
+body > .row, body .shaded > .row {
    padding: 10px 15px;
 }
 
@@ -71,7 +71,8 @@ dt {
 
 .shaded {
    background: #f3f3f3;
-   padding: 20px 10px;
+   padding-top: 10px;
+   margin: 0;
 }
 
 .top-bar a:hover {
