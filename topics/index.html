@@ -1,15 +1,12 @@
 ---
-layout: default
+layout: page
 title: Topics
 ---
 
-<div id="home">
-<h1>Topics</h1>
-<p>
-{% for category in site.categories %}
-<a href="/{{ category | first | slugize }}/">
-  {{ category | first }}
-</a><br />
-{% endfor %}
-</p>
+<div class="row">
+    <ul class="no-bullet">
+        {% for category in site.categories %}
+            <li><a href="{{ site.url }}/{{ category | first | slugize }}/">{{ category | first }}</a></li>
+        {% endfor %}
+    </ul>
 </div>

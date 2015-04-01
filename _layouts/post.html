@@ -1,15 +1,18 @@
 ---
-layout: default
+layout: page
 ---
-<h2>{{ page.title }}</h2>
-<p class="meta">(filed under:
-{% for category in page.categories %}
-&thinsp;<a href="{{ site.url }}/{{ category | slugize }}/">{{ category }}</a>
-{% endfor %}
-)
-</p>
-<p class="meta">{{ page.date | date_to_string }}</p>
 
-<div class="post">
-{{ content }}
+<div class="shaded">
+    <div class="row">
+        <p class="meta"><strong>{{ page.date | date_to_long_string }}</strong> <br> Filled in: {% for category in page.categories %}
+        &thinsp;<a href="{{ site.url }}/{{ category | slugize }}/">{{ category }}</a>
+        {% endfor %}
+        </p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="small-12 columns">
+        {{ content }}
+    </div>
 </div>

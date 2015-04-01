@@ -1,18 +1,19 @@
 ---
-layout: default
+layout: page
 ---
-<h2>{{ page.title }}</h2>
 
-<div class="post">
-{{ content }}
+<div class="shaded">
+    <div class="row">
+        <p>{{ content }}</p>
+    </div>
 </div>
 
-<h3>Posts</h3>
-<p>
-<ul>
-{% for post in site.categories[page.list_category] %}
-<li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
-{% endfor %}
-</ul>
-</p>
+<div class="row">
+    <h4 class="subheader">Posts</h4>
+    <ul class="no-bullet">
+        {% for post in site.categories[page.list_category] %}
+            <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+    </ul>
+</div>
 

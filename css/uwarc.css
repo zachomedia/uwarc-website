@@ -3,6 +3,10 @@
    font-size: 25pt;
 }
 
+.page-title {
+   padding: 15px 0;
+}
+
 .welcome {
    margin: 20px auto;
 }
@@ -21,7 +25,7 @@ body > .row {
    color: black;
 }
 
-.uwaterloo:hover {
+a.uwaterloo:hover {
    background: #fbcc2f;
    color: black;
 }
