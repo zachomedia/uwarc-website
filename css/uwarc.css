@@ -1,3 +1,7 @@
+body > .row, .shaded > .row {
+   padding: 20px 0;
+}
+
 .title {
    font-weight: bold;
    font-size: 25pt;
@@ -9,10 +13,6 @@
 
 .welcome {
    margin: 20px auto;
-}
-
-body > .row {
-   padding: 20px !important;
 }
 
 .button, .top-bar-section a {
@@ -37,10 +37,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .subheader {
    color: #484351;
-}
-
-body > .row, body .shaded > .row {
-   padding: 10px 15px;
 }
 
 body > .top-border {
@@ -80,8 +76,6 @@ dt {
 
 .shaded {
    background: #f3f3f3;
-   padding-top: 10px;
-   margin: 0;
 }
 
 .top-bar a:hover {
