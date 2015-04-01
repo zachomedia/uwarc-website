@@ -4,10 +4,12 @@ layout: page
 
 <div class="shaded">
     <div class="row">
-        <p class="meta"><strong>{{ page.date | date_to_long_string }}</strong> <br> Filled in: {% for category in page.categories %}
-        &thinsp;<a href="{{ site.url }}/{{ category | slugize }}/">{{ category }}</a>
-        {% endfor %}
-        </p>
+        <div class="small-12 columns">
+            <p class="meta"><strong>{{ page.date | date_to_long_string }}</strong> <br> Filled in: {% for category in page.categories %}
+            &thinsp;<a href="{{ site.url }}/{{ category | slugize }}/">{{ category }}</a>
+            {% endfor %}
+            </p>
+        </div>
     </div>
 </div>
 
