@@ -3,10 +3,13 @@ layout: page
 title: Topics
 ---
 
-<div class="row">
-    <ul class="no-bullet">
-        {% for category in site.categories %}
-            <li><a href="{{ site.url }}/{{ category | first | slugize }}/">{{ category | first }}</a></li>
-        {% endfor %}
-    </ul>
-</div>
+{% for category in site.categories %}
+    {% cycle '', '<div class="shaded">' %}
+        <div class="row">
+            <div class="small-12 columns">
+                <h4 class="subheader">{{ category | first }}</h4>
+                <p><a href="{{ site.url }}/{{ category | first | slugize }}/">View Posts</a></p>
+            </div>
+        </div>
+    {% cycle '', '</div>' %}
+{% endfor %}

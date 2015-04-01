@@ -25,7 +25,7 @@ body > .row {
    color: black;
 }
 
-a.uwaterloo:hover {
+a.uwaterloo:hover, a.uwaterloo:active, a.uwaterloo:focus {
    background: #fbcc2f;
    color: black;
 }
