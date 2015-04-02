@@ -43,7 +43,7 @@ title: University of Waterloo Amateur Radio Club
 
 <div class="row">
     <div class="large-6 medium-6 columns">
-        <h4 class="subheader">Blog Posts</h4>
+        <h4 class="subheader"><span class="fa fa-rss"></span> Recent Blog Posts</h4>
     	<ul class="posts">
     		{% for post in site.posts limit:8 %}
     			<li><span>{{ post.date | date_to_long_string }}</span>
@@ -55,9 +55,9 @@ title: University of Waterloo Amateur Radio Club
         <p><a class="button small radius full-width uwaterloo" href="{{ site.url }}/topics/">View All Posts</a></p>
     </div>
     <div class="large-6 medium-6 columns show-for-medium-up">
-        <h4 class="subheader">@VE3UOW</h4>
+        <h4 class="subheader"><span class="fa fa-twitter"></span> Recent Tweets</h4>
         <div class="twitter">
-        		<a class="twitter-timeline" data-dnt="true" href="{{ site.twitter_path }}" data-widget-id="{{ site.twitter_id }}" height="470px">Tweets by @VE3UOW</a>
+        		<a class="twitter-timeline" data-dnt="true" href="{{ site.twitter_path }}" data-widget-id="{{ site.twitter_id }}" data-chrome="noborders nofooter" data-tweet-limit="2" data-link-color="#c19503" height="470px">Tweets by @VE3UOW</a>
         	</div>
     </div>
 </div>
